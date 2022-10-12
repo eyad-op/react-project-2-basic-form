@@ -1,0 +1,45 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20rem;
+  background-color: #64b6ac;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.register__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.register__form > * {
+  width: 100%;
+  padding: 1rem 0.75rem;
+  background-color: #daffef;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #5d737e;
+  transition: all 0.5s;
+}
+
+.register__form > *::placeholder {
+  color: #64b6ac;
+}
+
+.register__form > button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #5d737e;
+}
+
+.register__form > button:hover {
+  background-color: #efffb3;
+}
