@@ -43,3 +43,17 @@
 .register__form > button:hover {
   background-color: #efffb3;
 }
+
+.success__message {
+  text-align: center;
+  background-color: #006457;
+  color: aliceblue;
+  font-size: 0.8rem;
+}
+
+.register__form > span {
+  color: #a80022;
+  padding: 0;
+  background-color: inherit;
+  font-weight: 500;
+}
